@@ -25,7 +25,8 @@ function App() {
 
   return (
     <div className="container">
-      <div>
+      <h1>Calculator</h1>
+      <div className="inp">
         <input type="text" value={result} />
       </div>
       <div className="keypad">
